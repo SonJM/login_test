@@ -33,5 +33,9 @@ out/
 /nbdist/
 /.nb-gradle/
 
+### 보안 키 ###
+application-jwt.yml
+application-oauth.yml
+
 ### VS Code ###
 .vscode/

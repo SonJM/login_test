@@ -6,6 +6,8 @@ spring:
 
 ---
 spring:
+  mvc:
+    static-path-pattern=/static/**:
   config:
     activate:
       on-profile: "local"
@@ -23,7 +25,7 @@ spring:
     generate-ddl: true
     properties:
       hibernate:
-        ddl-auto: create
+        ddl-auto: validate
         format_sql: true
         show_sql: true
     hibernate:
